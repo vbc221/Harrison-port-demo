@@ -803,6 +803,10 @@ h3 {
   color: #5DB2FF;
 }
 
+ ul li a:hover{
+  color: #5DB2FF;
+}
+
 /* line 32, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a.active {
   color: #5DB2FF;
