@@ -3763,13 +3763,18 @@ h3 {
 
 .centerword{
   text-align: center;
-  margin-bottom:10px;
+  margin-bottom:60px;
 }
 
 .info p{
-  color:grey;
-  font-size:16px;
+  color:#828793;
+  font-size:18px;
 }
+
+.anchorc{
+  color:grey;
+}
+
 
 /* line 30, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_portfolio_details.scss */
 .work_details_area .details_catagory_wrap .single_catagory .social_links a {
