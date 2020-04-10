@@ -3763,7 +3763,8 @@ h3 {
 
 .centerword{
   text-align: center;
-  margin-bottom:60px;
+  margin-bottom:70px;
+  margin-top:70px
 }
 
 .info p{
@@ -3775,6 +3776,37 @@ h3 {
   color:grey;
 }
 
+.video-container {
+  overflow: hidden;
+  position: relative;
+  width:100%;
+  margin-bottom:100px;
+}
+
+.video-container::after {
+  padding-top: 56.25%;
+  display: block;
+  content: '';
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+@media (max-width: 767px) {
+  /* line 51, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_portfolio_details.scss */
+  .video-container {
+    margin-bottom: 40px;
+  }
+  .centerword {
+    margin-bottom: 40px;
+  }
+}
 
 /* line 30, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_portfolio_details.scss */
 .work_details_area .details_catagory_wrap .single_catagory .social_links a {
@@ -3830,7 +3862,7 @@ h3 {
 
 /* line 63, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_portfolio_details.scss */
 .work_details_area .details_info .info {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 /* line 65, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_portfolio_details.scss */
