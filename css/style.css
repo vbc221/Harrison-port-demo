@@ -2306,7 +2306,7 @@ h3 {
 
 /* line 131, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_gallery.scss */
 .portfolio_area .single_gallery .gallery_hover .hover_inner h3 {
-  font-size: 45px;
+  font-size: 35px;
   color: black; /*IMPORTANTE text in bubble popup*/
   font-weight: 400;
   font-family: "Alata", sans-serif;
