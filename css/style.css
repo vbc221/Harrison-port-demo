@@ -421,7 +421,7 @@ btn-send-message
   border: 1px solid #c8c2ab;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
-  border-radius: 0px;
+  border-radius: 5px;
   text-align: center;
   color: #c8c2ab !important;
   text-transform: capitalize;
@@ -3981,7 +3981,7 @@ btn-send-message
 
 /* line 10, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_contact.scss */
 .contact-info {
-  margin-bottom: 25px;
+  margin-bottom: 44px;
 }
 
 /* line 13, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_contact.scss */
@@ -3991,7 +3991,7 @@ btn-send-message
 
 /* line 16, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_contact.scss */
 .contact-info__icon i, .contact-info__icon span {
-  color: #8f9195;
+  color: #5f6164;
   font-size: 27px;
 }
 
@@ -4034,10 +4034,10 @@ btn-send-message
 
 /* line 61, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_contact.scss */
 .form-contact .form-control {
-  border: 1px solid #e5e6e9;
-  border-radius: 0px;
+  border: 1px solid black;
+  border-radius: 5px;
   height: 48px;
-  padding-left: 18px;
+  padding-left: px;
   font-size: 13px;
   background: transparent;
 }
@@ -4051,7 +4051,7 @@ btn-send-message
 /* line 74, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_contact.scss */
 .form-contact .form-control::placeholder {
   font-weight: 300;
-  color: #999999;
+  color: gray
 }
 
 /* line 80, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_contact.scss */
